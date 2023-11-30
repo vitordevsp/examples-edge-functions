@@ -4,18 +4,18 @@ export const config = {
 
 export default function handler(req) {
   return Response.json({
-    location: [
+    questions: [
       {
-        pergunta: 'teste 1?',
-        resposta: 'resposta de teste',
+        question: 'teste 1?',
+        answer: 'resposta de teste',
       },
       {
-        pergunta: 'teste 2?',
-        resposta: 'resposta de teste',
+        question: 'teste 2?',
+        answer: 'resposta de teste',
       },
       {
-        pergunta: 'teste 3?',
-        resposta: 'resposta de teste',
+        question: 'teste 3?',
+        answer: 'resposta de teste',
       }
     ]
   })
